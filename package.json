@@ -1,9 +1,10 @@
 {
   "name": "chai-aur-backend",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman src/index.js"
   },
   "keywords": [
     "javscript",
@@ -12,5 +13,8 @@
   ],
   "author": "sameer",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
